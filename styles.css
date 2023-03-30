@@ -41,17 +41,23 @@ nav{
     color:#3D4442;
     font-weight: 500;
 }
-.btn_contact{
+.btn_contact
+    {
         background: #30B9A8;
         color: #FFFF !important;
-        border: 1px solid transparent;
+        border: 2px solid transparent;
         padding: 10px 35px;
         border-radius: 5px;
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         font-size: 15px;
-        
+        border: 2px solid transparent;
 }
+.btn_contact:hover {
+    background-color: #FFF;
+    color: #30B9A8 !important;
+    border-color: #30B9A8;
+  }
 .hiring{
     color: #30B9A8;
 }
@@ -85,17 +91,23 @@ header{
     padding-left: 50px;
 }
 .btn_hero {
-  background: #30B9A8;
-  color: #FFF;
-  border: 1px solid transparent;
-  padding: 10px 35px;
-  border-radius: 5px;
-  position: absolute;
-  left: 3.2%;
-  top: 45%;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 15px;
+    background: #30B9A8;
+    color: #FFF;
+    border: 2px solid transparent;
+    padding: 10px 35px;
+    border-radius: 5px;
+    position: absolute;
+    left: 3.2%;
+    top: 45%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  .btn_hero:hover {
+    background-color: #FFF;
+    color: #30B9A8;
+    border-color: #30B9A8;
   }
   /*------------------------------Payment--------------------*/
 
@@ -124,3 +136,40 @@ header{
   .payment_flex img{
     width: 46%;
   }
+  .container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .man_image {
+    flex-basis: 50%;
+    margin-right: 2em;
+  }
+  
+  .man_image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .man_content {
+    flex-basis: 50%;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+  }
+  
+  li img {
+    margin-right: 0.5em;
+    max-width: 1em;
+    height: auto;
+  }
+  
