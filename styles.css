@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #FFFF;
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100vw;
+    height: 6rem;
+    display: grid;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.nav_logo{
+    padding: 8px 30px;
+}
+.nav_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_items{
+    display: flex;
+    gap: 3rem;
+    padding: 10px 65px;
+}
+.nav_items li a{
+    font-family: 'Montserrat', sans-serif;
+    color:#3D4442;
+    font-weight: 500;
+}
+.btn_contact{
+        background: #30B9A8;
+        color: #FFFF !important;
+        border: 1px solid transparent;
+        padding: 10px 35px;
+        border-radius: 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        
+}
+.hiring{
+    color: #30B9A8;
+}
+/*------------------Header------------------------*/
+header{
+    max-width: 100vw;
+}
+.header_container{
+    display: flex;   
+    position: relative;
+}
+.header_title1{
+    padding-top: 150px;
+    padding-left: 50px;
+    color:#1577E7;
+    font-weight: 700;
+}
+.header_title2{
+    color: #000;
+    padding-left: 50px;
+    font-weight: 700;
+}
+.hero_image{
+    width: 50%;
+    position: relative;
+    left: 32%;
+    transform: translateX(-65%);
+}
+.lead{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.btn_hero {
+  background: #30B9A8;
+  color: #FFF;
+  border: 1px solid transparent;
+  padding: 10px 35px;
+  border-radius: 5px;
+  position: absolute;
+  left: 3.2%;
+  top: 45%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  }
+  /*------------------------------Payment--------------------*/
+
+  .payment{
+    background: #fafafa;
+  }
+  .payment_content{
+    text-align: center;
+  }
+  .payment_content h1{
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .payment_content p{
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .payment_flex{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  .payment_flex img{
+    width: 46%;
+  }
